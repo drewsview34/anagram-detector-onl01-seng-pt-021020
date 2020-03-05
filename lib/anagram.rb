@@ -4,10 +4,10 @@ require "pry"
 
 class Anagram
   
-  attr_accessor :
+  attr_accessor :name 
   
   def initialize(word)
-    @word = word
+    @name = word
   end
   
   def self.match(words)
