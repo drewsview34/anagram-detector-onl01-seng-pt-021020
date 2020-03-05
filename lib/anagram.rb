@@ -10,7 +10,7 @@ class Anagram
     @name = word
   end
   
-  def self.match(words)
+  def match(words)
     words.select {|w| w.split("").sort == word.split("").sort }
   end
   
