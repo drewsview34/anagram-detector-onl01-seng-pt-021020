@@ -14,7 +14,7 @@ class Anagram
   
   def self.match(words)
     words.each do |each_word|
-      each_word.split("").sort.eql() == word.split("").sort
+      each_word.split("").sort.eql()
     end 
   end
   
