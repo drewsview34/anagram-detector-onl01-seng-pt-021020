@@ -11,7 +11,7 @@ class Anagram
   end
   
   def self.match(words)
-      each_word.split("").sort == word.split("").sort
+      words.select { == word.split("").sort }
     end 
   end
   
